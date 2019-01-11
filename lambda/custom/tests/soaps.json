@@ -1,0 +1,119 @@
+{
+    "header": {
+        "namespace": "SkillDebugger",
+        "name": "CaptureDebuggingInfo",
+        "messageId": "af00ebaa-bf1f-472c-a9f2-764109c995b9"
+    },
+    "payload": {
+        "timestamp": "2018-06-18T08:53:44.817Z",
+        "dialogRequestId": "4409fd3f-a709-4b62-9711-2b8dad6da849",
+        "skillRequestId": "amzn1.echo-api.request.2522a81d-2005-41e0-8caa-beb549e8a6ea",
+        "type": "SkillExecutionInfo",
+        "content": {
+            "invocationRequest": {
+                "endpoint": "arn:aws:lambda:eu-west-1:609704199669:function:highlights",
+                "body": {
+                    "version": "1.0",
+                    "session": {
+                        "new": false,
+                        "sessionId": "amzn1.echo-api.session.f9b644dc-06c5-44e0-beea-26a5790255f8",
+                        "application": {
+                            "applicationId": "amzn1.ask.skill.abf33e9c-b642-47e9-a897-29a182dfcdf0"
+                        },
+                        "attributes": {
+                            "medium": "TV"
+                        },
+                        "user": {
+                            "userId": "amzn1.ask.account.AGTL4PRHGKVRWETN3PHR64FTVB55JPJPSZ22O2FNZROI4XNOKBCAXKQZVZOMP3KQFA6P5B73NPSQ74TH5PNSAIAXKZTKS65TJDOIB74GXY525N6SGUUITBPHBNIIJTY4MIRKG5YCRIFIPB3W4D24ASWUQ3R7DKZRX7ITQSIIMO77GDUEKCPWWFY2YI3HQC6X62VRQZUMDCCVKDI"
+                        }
+                    },
+                    "context": {
+                        "AudioPlayer": {
+                            "playerActivity": "IDLE"
+                        },
+                        "Display": {
+                            "token": ""
+                        },
+                        "System": {
+                            "application": {
+                                "applicationId": "amzn1.ask.skill.abf33e9c-b642-47e9-a897-29a182dfcdf0"
+                            },
+                            "user": {
+                                "userId": "amzn1.ask.account.AGTL4PRHGKVRWETN3PHR64FTVB55JPJPSZ22O2FNZROI4XNOKBCAXKQZVZOMP3KQFA6P5B73NPSQ74TH5PNSAIAXKZTKS65TJDOIB74GXY525N6SGUUITBPHBNIIJTY4MIRKG5YCRIFIPB3W4D24ASWUQ3R7DKZRX7ITQSIIMO77GDUEKCPWWFY2YI3HQC6X62VRQZUMDCCVKDI"
+                            },
+                            "device": {
+                                "deviceId": "amzn1.ask.device.AFWPYUWQ6UV45A7M4RSEBBTIK67EMNZZ47I4W36AXH5IGXAPURDMHL756AWZHCWPY2BO5AFSRJOAZ2UD3TGLBNWV63NZZVYXYY7WUKCDZMQOHIRUV74OWUWEVE2AYVZXF2ERLZHNPKP7UD3NBAVXM7MLSUVQ",
+                                "supportedInterfaces": {
+                                    "AudioPlayer": {},
+                                    "Display": {
+                                        "templateVersion": "1.0",
+                                        "markupVersion": "1.0"
+                                    }
+                                }
+                            },
+                            "apiEndpoint": "https://api.eu.amazonalexa.com",
+                            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmFiZjMzZTljLWI2NDItNDdlOS1hODk3LTI5YTE4MmRmY2RmMCIsImV4cCI6MTUyOTMxNTYyNCwiaWF0IjoxNTI5MzEyMDI0LCJuYmYiOjE1MjkzMTIwMjQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZXUFlVV1E2VVY0NUE3TTRSU0VCQlRJSzY3RU1OWlo0N0k0VzM2QVhINUlHWEFQVVJETUhMNzU2QVdaSENXUFkyQk81QUZTUkpPQVoyVUQzVEdMQk5XVjYzTlpaVllYWVk3V1VLQ0RaTVFPSElSVVY3NE9XVVdFVkUyQVlWWlhGMkVSTFpITlBLUDdVRDNOQkFWWE03TUxTVVZRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUdUTDRQUkhHS1ZSV0VUTjNQSFI2NEZUVkI1NUpQSlBTWjIyTzJGTlpST0k0WE5PS0JDQVhLUVpWWk9NUDNLUUZBNlA1QjczTlBTUTc0VEg1UE5TQUlBWEtaVEtTNjVUSkRPSUI3NEdYWTUyNU42U0dVVUlUQlBIQk5JSUpUWTRNSVJLRzVZQ1JJRklQQjNXNEQyNEFTV1VRM1I3REtaUlg3SVRRU0lJTU83N0dEVUVLQ1BXV0ZZMllJM0hRQzZYNjJWUlFaVU1EQ0NWS0RJIn19.RhnIlkK7hkMSgyvEuiJ0q2_NF52Q0P8LVMdtOPF_dXvKoPuJuDIMSwALph_WqpMg_lH58w-wPnvnyrPrbd0EIJL9wOR3-i8iIvkGKBimSPRcnnAm7gw9lmbXSOdQmWIZa65PO3rkE8Qwhp7F_VuKuG64mG-QCVeGDyOgAg6lHuDY_6RvxxiCG2c6_N7CaTWjvXIGhZqzFCB29F1IgdGJJ83pAM889T0WEdrsjhGBa5HoF4iGC_0D31DkPCUbY282UsMNojNJl9_VdD22c1ERBAUd2hha5fF0I3bUEqqLRVOxLRmMO8vvziprndYUSWAHJPPKElnrMFJp9Rr0nL9PAg"
+                        }
+                    },
+                    "request": {
+                        "type": "IntentRequest",
+                        "requestId": "amzn1.echo-api.request.2522a81d-2005-41e0-8caa-beb549e8a6ea",
+                        "timestamp": "2018-06-18T08:53:44Z",
+                        "locale": "en-GB",
+                        "intent": {
+                            "name": "giveHighlights",
+                            "confirmationStatus": "NONE",
+                            "slots": {
+                                "section": {
+                                    "name": "section",
+                                    "value": "soaps",
+                                    "resolutions": {
+                                        "resolutionsPerAuthority": [
+                                            {
+                                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.abf33e9c-b642-47e9-a897-29a182dfcdf0.chooseSection",
+                                                "status": {
+                                                    "code": "ER_SUCCESS_MATCH"
+                                                },
+                                                "values": [
+                                                    {
+                                                        "value": {
+                                                            "name": "soaps",
+                                                            "id": "2091566cf489dc29206bb90282054f7c"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "confirmationStatus": "NONE"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "invocationResponse": {
+                "body": {
+                    "version": "1.0",
+                    "response": {
+                        "shouldEndSession": true
+                    },
+                    "sessionAttributes": {
+                        "tvItems": {
+                            "1": {
+                                "title": "Fair City",
+                                "content": "Tonigh in fair city"
+                            }
+                        },
+                        "medium": "TV",
+                        "tvId": 1
+                    },
+                    "userAgent": "ask-nodejs/1.0.25 Node/v6.10.3"
+                }
+            },
+            "metrics": {
+                "skillExecutionTimeInMilliseconds": 547
+            }
+        }
+    }
+}
